@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
   head: {
     title: "Leo Chuang - Personal Website",
     htmlAttrs: {
@@ -28,6 +29,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
+  router: {
+    base: '/cv/'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
