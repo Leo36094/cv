@@ -1,0 +1,15 @@
+@import "./normalize.scss";
+@import "./mixin.scss";
+@import "./font.scss";
+
+*,
+*::before,
+*::after {
+  touch-action: pan-x pan-y;
+}
+
+/* setup viewport */
+html {
+  @include setHTML;
+  font-family: "Roboto Condensed", sans-serif;
+}
