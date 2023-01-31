@@ -9,6 +9,12 @@
           <NuxtLink to="/project"> Projects </NuxtLink>
         </li>
         <li>
+          <a href="https://github.com/Leo36094"> Github </a>
+        </li>
+        <li>
+          <a href="https://medium.com/@leo36094"> Medium </a>
+        </li>
+        <li>
           <a href="https://www.linkedin.com/in/leo-chuang/">LinkedIn</a>
         </li>
       </ul>

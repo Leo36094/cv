@@ -25,7 +25,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api/module'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

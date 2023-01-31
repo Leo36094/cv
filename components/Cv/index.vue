@@ -5,7 +5,8 @@
         <p>
           Hi, I'm Leo! Have over two years of experience in the frontend field
           with building internal management system platforms, marketing events,
-          etc, using <span class="bold">React</span> and <span class="bold">Vue</span>.
+          etc, using <span class="bold">Vue</span> and
+          <span class="bold">React</span>.
         </p>
       </div>
     </section>
@@ -43,11 +44,15 @@
           </li>
           <li>
             Used Nuxt on official websites of newly published games to support
-            dynamic meta changing, and server-side rendering for better SEO.
+            dynamic meta changing, and server-side rendering for better SEO.  <a
+              href="https://fam.garena.tw/"
+              target="_blank"
+              >Website</a
+            >
           </li>
           <li>
             Used canvas to build web games for FreeFire marketing events.
-            <a href="https://codepen.io/chuangl/full/Yzejraz"
+            <a href="https://codepen.io/chuangl/full/Yzejraz" target="_blank"
               >(No commercial version demo - Cupid Trial)</a
             >
           </li>
@@ -105,9 +110,11 @@
     <section class="project">
       <h3 class="project__name">Skills</h3>
       <div class="tech__list">
-        <span class="bold">Javascript,</span>
-        <span class="bold">Typescript,</span>
-        <span class="bold">HTML/CSS</span>
+        <span class="bold">Javascript/Typescript,</span>
+        <span class="bold">HTML/CSS(SCSS),</span>
+        <span class="bold">Git,</span>
+        <span class="bold">Webpack,</span>
+        <span class="bold">Cypress</span>
       </div>
     </section>
   </div>
