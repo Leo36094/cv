@@ -13,8 +13,8 @@
   </div>
 </template>
 
-<script setup>
-const cardList = [
+<script lang="ts" setup>
+const cardList:Array<{img: string; name: string; id: number}> = [
   {
     img: require("@/public/img/sm/mapgacha-discount.png"),
     name: "League of Legends - Map Gacha",
