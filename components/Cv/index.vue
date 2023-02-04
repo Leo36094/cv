@@ -13,15 +13,31 @@
     <section class="works">
       <h3 class="title">Work Experience</h3>
       <div class="project">
-        <h5 class="project__name">
-          Garena
-          <p class="project__description">Software Engineer II, Frontend</p>
-        </h5>
+        <h5 class="project__name">Garena</h5>
+        <JobTitle
+          :title-info="[
+            {
+              title: 'Senior Software Engineer I, Frontend',
+              experience: 'Jan 2023 - Present',
+              id: 1,
+            },
+            {
+              title: 'Software Engineer II, Frontend',
+              experience: 'Mar 2020 - Jan 2023',
+              id: 2,
+            },
+          ]"
+        />
         <ul class="project__detail-list_en">
           <li>
             Built multiple revenue and marketing events with backend developers
             using Javascript, Typescript, Vue2, Vue3, Vuex, Vue-i18n, Webpack,
             and SCSS.
+          </li>
+          <li>
+            Used Nuxt on official websites of newly published games to support
+            dynamic meta changing, and server-side rendering for better SEO.
+            <a href="https://fam.garena.tw/" target="_blank"> Website </a>
           </li>
           <li>
             Contributed to the frontend project template to avoid redundant
@@ -43,14 +59,6 @@
             project styles on their own when relaunching projects.
           </li>
           <li>
-            Used Nuxt on official websites of newly published games to support
-            dynamic meta changing, and server-side rendering for better SEO.  <a
-              href="https://fam.garena.tw/"
-              target="_blank"
-              >Website</a
-            >
-          </li>
-          <li>
             Used canvas to build web games for FreeFire marketing events.
             <a href="https://codepen.io/chuangl/full/Yzejraz" target="_blank"
               >(No commercial version demo - Cupid Trial)</a
@@ -60,10 +68,16 @@
       </div>
       <div class="divider"></div>
       <div class="project">
-        <h5 class="project__name">
-          Cloud Interactive
-          <p class="project__description">Frontend Engineer</p>
-        </h5>
+        <h5 class="project__name">Cloud Interactive</h5>
+        <JobTitle
+          :title-info="[
+            {
+              title: 'Frontend Engineer',
+              experience: 'Oct 2018 - Jan 2020',
+              id: 1,
+            },
+          ]"
+        />
         <ul class="project__detail-list_en">
           <li>
             Developed an internal management system for enterprise and maintain
@@ -86,10 +100,16 @@
       </div>
       <div class="divider"></div>
       <div class="project">
-        <h5 class="project__name">
-          Acaia
-          <p class="project__description">Sales Support Specialist</p>
-        </h5>
+        <h5 class="project__name">Acaia</h5>
+        <JobTitle
+          :title-info="[
+            {
+              title: 'Sales Support Specialist',
+              experience: 'Mar 2017 - Jun 2018',
+              id: 1,
+            },
+          ]"
+        />
         <ul class="project__detail-list_en">
           <li>
             Collaborated with UX Designers to rebuild a new website via a
@@ -111,14 +131,18 @@
       <h3 class="project__name">Skills</h3>
       <div class="tech__list">
         <span class="bold">Javascript/Typescript,</span>
-        <span class="bold">HTML/CSS(SCSS),</span>
-        <span class="bold">Git,</span>
+        <span class="bold">Vue, React,</span>
         <span class="bold">Webpack,</span>
-        <span class="bold">Cypress</span>
+        <span class="bold">Cypress,</span>
+        <span class="bold">HTML/CSS(SCSS).</span>
       </div>
     </section>
   </div>
 </template>
+
+<script lang="ts" setup>
+import JobTitle from "@/components/Cv/JobTitle.vue";
+</script>
 
 <style lang="scss">
 .cv {

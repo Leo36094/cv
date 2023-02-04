@@ -48,12 +48,16 @@
         transition: 0.3s ease-in all;
         bottom: 0;
         left: 0;
-        opacity: 0;
-        transform: scale(0.5);
       }
-      &:hover::before {
-        opacity: 1;
-        transform: scale(1);
+      @include queryMinWidth($querySM) {
+        &:before {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        &:hover::before {
+          opacity: 1;
+          transform: scale(1);
+        }
       }
     }
   }
