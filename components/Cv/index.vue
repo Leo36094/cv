@@ -28,38 +28,47 @@
             },
           ]"
         />
+        <div class="tech-list">
+          <span class="bold">Typescript,</span>
+          <span class="bold">Vue, Nuxt,</span>
+          <span class="bold">Vuex, Pinia,</span>
+          <span class="bold">Webpack,</span>
+          <span class="bold">Cypress,</span>
+          <span class="bold">SCSS.</span>
+        </div>
         <ul class="project__detail-list_en">
           <li>
-            Built multiple revenue and marketing events with backend developers
-            using Javascript, Typescript, Vue2, Vue3, Vuex, Vue-i18n, Webpack,
-            and SCSS.
+            Collaborated with backend engineers to develop multiple revenue and
+            marketing events.
+          </li>
+          <li>
+            <span class="bold">Led and participated in upgrading and migrating old front-end
+            projects</span> for future maintenance and better development experience
+            for the team.
+          </li>
+          <li>
+            Built front-end templates using cookiecutter to solve the pain of
+            setting configs when starting a new project, <span class="bold">increased 16%
+            development efficiency</span> for the front-end development team from 12 to
+            10 workdays.
+          </li>
+          <li>
+            Built a platform with Auth integration for revenue events that
+            simplified testing procedures for QA partners.
+          </li>
+          <li>
+            Implemented a parser tool of CSS that reduced labor costs between
+            the development team and the operation team, by generating compiled CSS
+            files to readable templates in Google Sheets.
           </li>
           <li>
             Used Nuxt on official websites of newly published games to support
             dynamic meta changing, and server-side rendering for better SEO.
-            <a href="https://fam.garena.tw/" target="_blank"> Website </a>
+            <a href="https://fam.garena.tw/" target="_blank"> Event Link </a>
           </li>
           <li>
-            Contributed to the frontend project template to avoid redundant
-            config settings for new projects with Cookiecutter.
-          </li>
-          <li>
-            Participated in migrating frontend projects from Vue2 to Vue3 plus
-            Typescript.
-          </li>
-          <li>
-            Built an Internal Game Auth Platform with backend developers for
-            in-game projects that smooths the QA process using Vue2, Vuex, and
-            Sentry.
-          </li>
-          <li>
-            Built a tool called CSS parser for all revenue events that can
-            reduce frontend labor cost by generating compiled CSS files to
-            readable templates in Google Sheets that Operation Teams can modify
-            project styles on their own when relaunching projects.
-          </li>
-          <li>
-            Used canvas to build web games for FreeFire marketing events.
+            Keep learning and make it in practice that built web games with
+            Canvas for marketing events.
             <a href="https://codepen.io/chuangl/full/Yzejraz" target="_blank"
               >(No commercial version demo - Cupid Trial)</a
             >
@@ -78,6 +87,13 @@
             },
           ]"
         />
+        <div class="tech-list">
+          <span class="bold">Javascript,</span>
+          <span class="bold">Vue, Nuxt, React</span>
+          <span class="bold">Vuex,</span>
+          <span class="bold">Webpack,</span>
+          <span class="bold">SCSS, Stylus.</span>
+        </div>
         <ul class="project__detail-list_en">
           <li>
             Developed an internal management system for enterprise and maintain
@@ -124,18 +140,6 @@
           Bachelor's degree, Applied English
         </p>
       </div>
-      <div class="divider"></div>
-    </section>
-
-    <section class="project">
-      <h3 class="project__name">Skills</h3>
-      <div class="tech__list">
-        <span class="bold">Javascript/Typescript,</span>
-        <span class="bold">Vue, React,</span>
-        <span class="bold">Webpack,</span>
-        <span class="bold">Cypress,</span>
-        <span class="bold">HTML/CSS(SCSS).</span>
-      </div>
     </section>
   </div>
 </template>
@@ -162,6 +166,9 @@ import JobTitle from "@/components/Cv/JobTitle.vue";
   .divider {
     margin: 0.08rem 0 0.16rem;
     border-bottom: 0.01rem solid #afafaf;
+  }
+  .tech-list {
+    margin: 0.15rem 0;
   }
 
   .title {
