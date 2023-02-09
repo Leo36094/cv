@@ -14,6 +14,7 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+  plugins: ['@/plugins/vue-gtag'],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/scss/global.scss"],
