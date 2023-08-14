@@ -1,6 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'static',
+  target: "static",
   head: {
     title: "Leo Chuang - Personal Website",
     htmlAttrs: {
@@ -14,24 +14,23 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
-  plugins: ['@/plugins/vue-gtag'],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/scss/global.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: "@/plugins/vue-gtag", mode: "client" }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api/module'],
+  buildModules: ["@nuxt/typescript-build", "@nuxtjs/composition-api/module"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
   router: {
-    base: '/cv/'
+    base: "/cv/",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

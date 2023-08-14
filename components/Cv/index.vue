@@ -3,10 +3,11 @@
     <section>
       <div class="cv__intro">
         <p>
-          Hi, I'm Leo! Have over two years of experience in the frontend field
-          with building internal management system platforms, marketing events,
-          etc, using <span class="bold">Vue</span> and
-          <span class="bold">React</span>.
+          Hello, I'm Leo! With over three years of hands-on experience in the
+          frontend field, I've specialized in crafting internal management
+          system platforms, driving successful marketing events, and more. My
+          toolkit includes Vue and React, which I've harnessed to create dynamic
+          and user-centric solutions.
         </p>
       </div>
     </section>
@@ -34,7 +35,8 @@
           <span class="bold">Vuex, Pinia,</span>
           <span class="bold">Webpack,</span>
           <span class="bold">Cypress,</span>
-          <span class="bold">SCSS.</span>
+          <span class="bold">SCSS,</span>
+          <span class="bold">Sentry.</span>
         </div>
         <ul class="project__detail-list_en">
           <li>
@@ -42,36 +44,38 @@
             marketing events.
           </li>
           <li>
-            <span class="bold">Led and participated in upgrading and migrating old front-end
-            projects</span> for future maintenance and better development experience
-            for the team.
+            Guided and mentored junior developers, offering a setup template,
+            code review, and insights into best practices.
           </li>
           <li>
-            Built front-end templates using cookiecutter to solve the pain of
-            setting configs when starting a new project, <span class="bold">increased 16%
-            development efficiency</span> for the front-end development team from 12 to
-            10 workdays.
+            <span class="bold"
+              >Led and participated in upgrading and migrating old front-end
+              projects</span
+            >
+            for future maintenance and better development experience for the
+            team.
           </li>
           <li>
-            Built a platform with Auth integration for revenue events that
-            simplified testing procedures for QA partners.
+            Revamped project initiation by constructing front-end templates
+            through Cookiecutter, alleviating the burden of configuring settings
+            at project inception. Resulted in a remarkable
+            <span class="bold">16% boost in development efficiency</span>,
+            leading to reduced project delivery times.
+          </li>
+          <li>
+            Developed scalable platforms enabling streamlined configuration of
+            multiple revenue events.
           </li>
           <li>
             Implemented a parser tool of CSS that reduced labor costs between
-            the development team and the operation team, by generating compiled CSS
-            files to readable templates in Google Sheets.
+            the development team and the operation team, by generating compiled
+            CSS files to readable templates in Google Sheets.
           </li>
           <li>
-            Used Nuxt on official websites of newly published games to support
-            dynamic meta changing, and server-side rendering for better SEO.
+            Utilized Nuxt.js on official websites for newly launched games to
+            facilitate dynamic meta changes and implement server-side rendering,
+            resulting in improved SEO performance and enhanced user experience.
             <a href="https://fam.garena.tw/" target="_blank"> Event Link </a>
-          </li>
-          <li>
-            Keep learning and make it in practice that built web games with
-            Canvas for marketing events.
-            <a href="https://codepen.io/chuangl/full/Yzejraz" target="_blank"
-              >(No commercial version demo - Cupid Trial)</a
-            >
           </li>
         </ul>
       </div>
