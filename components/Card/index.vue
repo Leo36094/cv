@@ -2,7 +2,8 @@
   <div :class="['card', { 'can-hover': href }]" @click="goProjectSite">
     <div class="card__img" :style="{ backgroundImage: `url(${img})` }"></div>
     <div class="card__content">
-      <p>{{ cardName }}</p>
+      <p>{{ cardName }} <a class="link" v-if="href" :href="href">LINK</a></p>
+      
     </div>
   </div>
 </template>
@@ -52,6 +53,10 @@ function goProjectSite() {
   &__content {
     padding: 0.1rem;
     text-align: center;
+  }
+  .link {
+    font-weight: bold;
+    color: rgba(#EF9666, 0.5);
   }
 }
 </style>
