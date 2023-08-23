@@ -93,7 +93,7 @@
         />
         <div class="tech-list">
           <span class="bold">Javascript,</span>
-          <span class="bold">Vue, Nuxt, React</span>
+          <span class="bold">Vue, Nuxt, React,</span>
           <span class="bold">Vuex,</span>
           <span class="bold">Webpack,</span>
           <span class="bold">SCSS, Stylus.</span>
