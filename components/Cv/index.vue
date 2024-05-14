@@ -40,8 +40,7 @@
         </div>
         <ul class="project__detail-list_en">
           <li>
-            Collaborated with backend engineers to develop multiple revenue and
-            marketing events.
+            Collaborated with backend engineers to develop over 50+ revenue and marketing events.
           </li>
           <li>
             Guided and mentored junior developers, offering a setup template,
@@ -72,10 +71,7 @@
             CSS files to readable templates in Google Sheets.
           </li>
           <li>
-            Utilized Nuxt.js on official websites for newly launched games to
-            facilitate dynamic meta changes and implement server-side rendering,
-            resulting in improved SEO performance and enhanced user experience.
-            <a href="https://fam.garena.tw/" target="_blank"> Event Link </a>
+            Utilized Nuxt.js on official websites for newly launched games to facilitate dynamic meta changes and implement server-side rendering, resulting in improved SEO performance and enhanced user experience.
           </li>
         </ul>
       </div>
