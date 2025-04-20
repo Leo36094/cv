@@ -23,6 +23,12 @@ import { ProjectComponentId } from "@/constants/project";
 const cardList: Array<{ img: string; name: string; id: number; href: string }> =
   [
     {
+      img: require("@/public/g-official.png"),
+      name: "Garena Official Website",
+      id: ProjectComponentId.GarenaOfficial,
+      href: "https://www.garena.tw",
+    },
+    {
       img: "https://dlgarenanow-a.akamaihd.net/mgames/famtw/h5/20220715_official/meta_01.jpg",
       name: "FAM Official Website (Nuxt)",
       id: ProjectComponentId.FamOfficial,

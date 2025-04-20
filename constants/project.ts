@@ -4,7 +4,8 @@ enum ProjectComponentId {
   Lottery = 2,
   CupidTrial = 3,
   LuckyPoints = 4,
-  AcarnaGacha = 5
+  AcarnaGacha = 5,
+  GarenaOfficial = 6
 }
 export {
   ProjectComponentId

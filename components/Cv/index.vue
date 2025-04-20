@@ -40,38 +40,22 @@
         </div>
         <ul class="project__detail-list_en">
           <li>
-            Collaborated with backend engineers to develop over 50+ revenue and marketing events.
+            Built scalable front-end platforms supporting global revenue and marketing campaigns, enabling flexible configuration and seamless backend integration—significantly reducing operational overhead.
           </li>
           <li>
-            Guided and mentored junior developers, offering a setup template,
-            code review, and insights into best practices.
+            Developed and launched 50+ revenue and marketing events across the US, SEA, and South America, collaborating with backend and product teams to deliver high-impact, localized user experiences.
           </li>
           <li>
-            <span class="bold"
-              >Led and participated in upgrading and migrating old front-end
-              projects</span
-            >
-            for future maintenance and better development experience for the
-            team.
+            Led front-end improvements by upgrading legacy codebases, introducing reusable Cookiecutter templates, and mentoring junior developers—enhancing maintainability, streamlining development, and improving team efficiency by 16%.
           </li>
           <li>
-            Revamped project initiation by constructing front-end templates
-            through Cookiecutter, alleviating the burden of configuring settings
-            at project inception. Resulted in a remarkable
-            <span class="bold">16% boost in development efficiency</span>,
-            leading to reduced project delivery times.
+            Proactively diagnosed performance issues using Lighthouse, applying Web Vitals insights (FCP, CLS, LCP) to improve loading speed, interactivity, and overall user experience.
           </li>
           <li>
-            Developed scalable platforms enabling streamlined configuration of
-            multiple revenue events.
+            Built and optimized SSR applications with Nuxt.js, boosting SEO, reducing load times, and enhancing dynamic content performance.
           </li>
           <li>
-            Implemented a parser tool of CSS that reduced labor costs between
-            the development team and the operation team, by generating compiled
-            CSS files to readable templates in Google Sheets.
-          </li>
-          <li>
-            Utilized Nuxt.js on official websites for newly launched games to facilitate dynamic meta changes and implement server-side rendering, resulting in improved SEO performance and enhanced user experience.
+            Initiated and hosted regular front-end knowledge-sharing sessions on Web Vitals performance tuning, Vue 2 to 3 migration, and deep-dive debugging (e.g. Chrome Proxy bug), fostering a culture of learning and cross-project support.
           </li>
         </ul>
       </div>
